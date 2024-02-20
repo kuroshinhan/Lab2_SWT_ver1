@@ -9,7 +9,13 @@ import model.User;
 
 public class UserDAO extends dal.DBContext {
 
+    // Constructor UserDAO
+    // This constructor is intentionally left empty as no initialization
+    // or setup is required at this time. All initialization is handled
+    // by the superclass or specific methods in this class.
     public UserDAO() {
+        // This constructor intentionally left blank.
+        // Initialization and setup are handled by the superclass or other methods.
     }
 
     public void createUser(User user) {
