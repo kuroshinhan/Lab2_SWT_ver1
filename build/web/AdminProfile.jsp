@@ -138,6 +138,7 @@
                     <h2>Update Your Profile</h2>
                     <form action="admin" method="POST">
                         <table>
+                        <!-- This table contains the admin profile details to update -->
                             <tr>
                                 <td>User Name:</td>
                                 <td><input type="text" name="name" value="${user.userName}" class="input-text"></td>
@@ -162,6 +163,7 @@
                             <tr>
                                 <td><input type="submit" name="updateProfile" value="UPDATE"></td>
                             </tr>
+                            <!-- Additional table rows for other profile details -->
                         </table>
                     </form>
                 </div>
